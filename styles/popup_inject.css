@@ -14,6 +14,18 @@
     box-sizing: content-box !important;
 }
 
+.tarjomak_logo {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/icons/icon128.png');
+    display: block;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    width: 22px;
+    height: 22px;
+    float: right;
+    margin-left: 10px;
+}
+
 .tarjomak_popup {
     direction: rtl;
     position: fixed !important;
@@ -39,21 +51,6 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
-    z-index: 999;
-    height: 2px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    background-position: 0% 0%;
-    background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
-    background-size: 500% auto;
-}
-
-.tarjomak_popup:before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
     z-index: 999;
     height: 2px;
     border-bottom-left-radius: 2px;

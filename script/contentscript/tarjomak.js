@@ -80,7 +80,8 @@ var Translate = {
             this.container = this.createDomElement(props);
             document.getElementsByTagName("body")[0].appendChild(this.container);
         }
-        this.container.innerHTML = translated;
+
+        this.container.innerHTML = '<span class="tarjomak_logo" /></span>' + translated ;
         this.positionContainer(this.container);
     },
     hasClass: function (element, cls) {
