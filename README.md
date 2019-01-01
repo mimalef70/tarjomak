@@ -1,15 +1,19 @@
 # Tarjomak (تَرجُمَک)
 ![](https://mimalef70.github.io/tarjomak/images/demo/logo.svg)
 
-## <h1 align="right">ترجمک، افزونه‌ای متن‌باز برای ترجمه سریع در سرتاسر وب</h1>
-<p align="right">ترجمک افزونه‌ای متن‌باز برای ترجمه سریع در داخل صفحات وب و یا به صورت پاپ‌آپ در مرورگر شما می‌باشد. فقط کافیست بعد از انتخاب متن کلید SHIFT را یک بار بزنید. </p>
+## **An Open Source Extension for Translating Throughout the World Wide Web**
+
+**Tarjomak** is an extension for rapid translating from ***English*** to ***Persian (Farsi/فارسی)*** inside the web pages or as a pop-up window in all of your Internet explorers. 
+
+- To get the pop-up window, the only thing you need to do is to ***Select*** the text and tap on `SHIFT` key.
+- Also you can select more than one word or paragraph and then click on the extension’s icon to have the whole translated text.
 
 ---------------
 ### Download Links
 
-<a href="https://chrome.google.com/webstore/detail/dcjdhicepiklefpimapdkbaeoocniemc/"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/chrome.svg" alt="Google Chrome" width="50" /></a>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/fontara-font-changer/"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/firefox.svg" alt="Mozilla Firefox" width="50" /></a>
-<a href="https://addons.opera.com/en/extensions/details/fontara-font-changer/"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/opera.svg" alt="Opera" width="50" /></a>
+<a href="#"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/chrome.svg" alt="Google Chrome" width="50" /></a>
+<a href="#"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/firefox.svg" alt="Mozilla Firefox" width="50" /></a>
+<a href="#"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/opera.svg" alt="Opera" width="50" /></a>
 <a href="#"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/safari.svg" alt="Safari" width="50" /></a>
 <a href="#"><img src="https://mimalef70.github.io/fontara/images/demo/browsers/microsoft-edge.svg" alt="Microsoft Edge" width="50" /></a>
 
@@ -24,7 +28,7 @@
 
 
 ---------------
-### Contacts
+### Contact Me
 
 <a href="https://telegram.me/mimalef70"><img src="https://github.com/dolanskurd/tarjomak/blob/master/docs/images/demo/icons/telegram.png?raw=true" alt="Telegram Messenger" width="45" /></a>
 <a href="https://www.linkedin.com/in/mostafaalahyari/"><img src="https://github.com/dolanskurd/tarjomak/blob/master/docs/images/demo/icons/linkedin.png?raw=true" alt="Linked-in" width="45" /></a>
