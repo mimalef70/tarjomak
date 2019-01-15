@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles/popup.css"/>
-        <link rel="stylesheet" href="styles/font.css" >
-    </head>
-    <body>
-        <main class="container">
-            <a href="#"><img class="logo" src="/icons/logo-tarjomak.png" /></a>
-            <div class="help">
-                    <a href="help.html" class="new-tab">راهنما:</a> برای ترجمه سریع، متن مورد نظر را انتخاب نموده و کلید <span>SHIFT</span> را یک‌بار بزنید.
-            </div>
 
-            <div autocomplete="off" id="form" dir="ltr">
-                <div class="webflow-style-input">
-                    <input autocomplete="off" type="text" id="query" class="search-box"  placeholder="متن دلخواه"/>
-                    <button type="submit" id="search">&rarr;</button>
-                </div>
-            </div>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/font.css">
+</head>
 
-            <div id="loading" style="display:none">لطفا کمی صبر کنید ...</div>
-            <div id="translationcontainer" style="display:none"></div>
-        </main>
-        <footer>
-            <div class="creator">
-            طراحی و توسعه با <span class="icon-heart"></span> توسط&nbsp; <a href="#" id="developer" title="Mostafa Alahyari ">مصطفی
-            الهیاری
+<body>
+    <main class="container">
+        <a href="#"><img class="logo" src="/icons/logo-tarjomak.png" /></a>
+        <div class="help">
+            <a href="help.html" class="new-tab">راهنما:</a> برای ترجمه سریع، متن مورد نظر را انتخاب نموده و کلید <span>SHIFT</span>
+            را یک‌بار بزنید.
+        </div>
+
+        <div autocomplete="off" id="form" dir="ltr">
+            <div class="webflow-style-input">
+                <input autocomplete="off" type="text" id="query" class="search-box" placeholder="متن دلخواه" />
+                <button type="submit" id="search">&rarr;</button>
+            </div>
+        </div>
+
+        <div id="loading" style="display:none">لطفا کمی صبر کنید ...</div>
+        <div id="translationcontainer" style="display:none"></div>
+    </main>
+    <footer>
+        <div class="creator">
+            طراحی و توسعه با <span class="icon-heart"></span> توسط&nbsp; <a href="https://www.linkedin.com/in/mostafaalahyari/" id="developer" class="new-tab" title="Mostafa Alahyari ">مصطفی
+                الهیاری
             </a>
             <div class="social">
                 <a class="new-tab" href="mailto:mostafa.a.aut@gmail.com" id="user-email" title="My Email "><span class="icon-envelope-square"></span></a>
-                <a class="new-tab" href="https://twitter.com/mimalef70" id="user-twitter" title="My Twitter "><span class="icon-twitter-square"></span></a>
+                <a class="new-tab" href="https://twitter.com/mimalef70" id="user-twitter" title="My Twitter "><span
+                        class="icon-twitter-square"></span></a>
                 <a class="new-tab" href="https://www.linkedin.com/in/mostafaalahyari/" id="user-linkedin" title="My Linkedin "><span
-                    class="icon-linkedin-square"></span></a> <a class="new-tab" href="https://github.com/mimalef70/fontara-fc" id="user-github"
-                    title="Project Github "><span class="icon-github-square"></span></a> <a class="new-tab" href="https://mimalef70.github.io/fontara"
-                    id="user-www" title="Project Page "><span class="icon-external-link-square"></span></a>
+                        class="icon-linkedin-square"></span></a>
+                <a class="new-tab" href="https://github.com/mimalef70/tarjomak" id="user-github" title="Project Github "><span
+                        class="icon-github-square"></span></a>
+                <a class="new-tab" href="https://mimalef70.github.io/tarjomak/" id="user-www" title="Project Page "><span
+                        class="icon-external-link-square"></span></a>
             </div>
             <span class="targoman">قدرت گرفته از مترجم <a href="https://targoman.ir/" class="new-tab" title="Targoman">ترگمان</a></span>
-            </div>
+        </div>
 
-        </footer>
-        <script src="script/links.js"></script>
-        <script src="script/popup.js"></script>
-    </body>
+    </footer>
+    <script src="script/links.js"></script>
+    <script src="script/popup.js"></script>
+    <script src="script/clipboard.min.js"></script>
+</body>
+
 </html>

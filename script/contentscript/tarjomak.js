@@ -81,7 +81,8 @@ var Translate = {
             document.getElementsByTagName("body")[0].appendChild(this.container);
         }
 
-        this.container.innerHTML = '<span class="tarjomak_logo" /></span>' + translated ;
+        this.container.innerHTML = '<span class="tarjomak_logo" /></span>' + '<span id="translated-text">' + translated + '</span>' + '<button class="copy_btn hint--left hint--rounded" aria-label="کپی متن" data-clipboard-target="#translated-text"><span class="copy_logo" /></span></button>';
+        new ClipboardJS('.copy_btn');
         this.positionContainer(this.container);
     },
     hasClass: function (element, cls) {
