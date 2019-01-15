@@ -15,7 +15,7 @@
             "<all_urls>"
         ],
         "css": ["styles/popup_inject.css","styles/hint.min.css"],
-        "js": ["script/allEnv/allEnv.js", "script/contentscript/tarjomak.js", "script/contentscript/tarjomak_main.js", "script/clipboard.min.js"],
+        "js": ["script/allEnv/allEnv.js", "script/contentscript/tarjomak.js", "script/contentscript/tarjomak_main.js"],
         "run_at": "document_end"
     }],
     "options_ui": {
