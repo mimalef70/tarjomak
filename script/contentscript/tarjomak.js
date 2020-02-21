@@ -121,7 +121,7 @@ var Translate = {
     },
     keydown: function (e) {
         this.hideContainer();
-        if (e.shiftKey) {
+        if (e.ctrltKey) {
             if (!this.isInput(e.target) || (this.isInput(e.target) && !allEnv.options.IGNORE_INPUTS)) {
                 var text = this.getSelectionText().trim();
                 if (text !== "") {
