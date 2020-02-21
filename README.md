@@ -5,7 +5,7 @@
 
 **Tarjomak** is an extension for rapid translating from ***English*** to ***Persian (Farsi/فارسی)*** inside the web pages or as a pop-up window in all of your Internet explorers.
 
-- To get the pop-up window, the only thing you need to do is to ***Select*** the text and tap on `SHIFT` key.
+- To get the pop-up window, the only thing you need to do is to ***Select*** the text and tap on `Ctrl` key.
 - Also you can select more than one word or paragraph and then click on the extension’s icon to have the whole translated text.
 
 ---------------
